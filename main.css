@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui;
+}
+
+.home,
+.procesar {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.home-form {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    gap: 6px;
+}
+
+.home-form input,
+.home-form button,
+.home-form select {
+    padding: 10px 12px;
+}
+
+.home-form button {
+    background-color: #0089ff;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.home-form-radio-wrapper {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+/* PROCESAR.php */
+
+.welcome-message {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.welcome-message .result-text {
+    font-size: 16px;
+    margin: 12px 0;
+}
+
+.result-image {
+    border-radius: 8px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+}
